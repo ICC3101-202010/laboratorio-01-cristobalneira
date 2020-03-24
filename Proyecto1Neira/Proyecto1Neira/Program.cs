@@ -1,16 +1,17 @@
 ﻿using System;
-
+//Profesor dijo con rigurosidad cada Parte
 namespace Proyecto1Neira
 {
-
     class MainClass
     {
         public static void Main(string[] args)
         {
-            Persona person1 = new Persona("Bob", "Kunga");
-            Console.WriteLine("Nombre: " + person1.GetName());
-            Console.WriteLine("Apellido: " + person1.GetApe());
-            Console.WriteLine("Persona lanzo: " + person1.Lanzar());
+            //Parte1
+            Persona person1 = new Persona("","");
+            person1.Lanzar();
+            //Parte2 ocupar el constructor
+            Persona person2 = new Persona("Bob", "Kunga");
+
         }
     }
 }
